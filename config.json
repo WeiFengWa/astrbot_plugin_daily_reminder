@@ -2,7 +2,7 @@
   "tasks": [
     {
       "time": "09:00",
-      "qq": "3367315356",
+      "qq": "2969079275",
       "message": "每日统计数据",
       "use_api": true,
       "api_url": "https://zdz888.top/api/statistics?logs=true",

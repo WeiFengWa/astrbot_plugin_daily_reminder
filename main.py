@@ -4,6 +4,7 @@ import datetime
 import asyncio
 import aiohttp
 from astrbot.api.star import Context, Star, register
+from astrbot.api.event import filter, AstrMessageEvent
 
 @register("sj", "author", "一个简单的 Hello World 插件", "1.0.0", "repo url")
 class DailyReminder(Star):
@@ -21,7 +22,8 @@ class DailyReminder(Star):
         else:
             self.logger.error("配置文件不存在: " + self.config_path)
 
-    async def on_startup(self):
+    @filter.on_astrbot_loaded()
+    async def on_astrbot_loaded(self):
         self.bot.loop.create_task(self.reminder_loop())
 
     async def reminder_loop(self):
