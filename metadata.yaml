@@ -1,5 +1,5 @@
-name: dailyreminermine # 这是你的插件的唯一识别名。
+name: dailyreminerminewf # 这是你的插件的唯一识别名。
 desc: 让机器人支持定时消息 # 插件简短描述
 version: v1.0 # 插件版本号。格式：v1.1.1 或者 v1.1
-author: 小懒 # 作者
-repo: https://github.com/xiaolan0216/astrbot_plugin_daily_reminder # 插件的仓库地址
+author: wf # 作者
+repo: hhttps://github.com/WeiFengWa/astrbot_plugin_daily_reminder # 插件的仓库地址

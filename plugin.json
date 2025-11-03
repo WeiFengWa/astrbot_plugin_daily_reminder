@@ -1,5 +1,5 @@
 {
-  "name": "daily_reminder_safe",
+  "name": "daily_reminder_safe_wf",
   "version": "1.0.0",
   "main": "daily_reminder.py",
   "description": "每天定时提醒特定QQ好友",
