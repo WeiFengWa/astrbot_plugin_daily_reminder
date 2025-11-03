@@ -3,11 +3,12 @@ import json
 import datetime
 import asyncio
 import aiohttp
-from astrbot.api import Plugin
+from astrbot.api.star import Context, Star, register
 
-class DailyReminder(Plugin):
-    def __init__(self, bot):
-        super().__init__(bot)
+@register("sj", "author", "一个简单的 Hello World 插件", "1.0.0", "repo url")
+class DailyReminder(Star):
+    def __init__(self, context: Context):
+        super().__init__(context)
         self.config_path = os.path.join(os.path.dirname(__file__), "config.json")
         self.tasks = []
         self.sent_today = set()  # 记录今天已发送的任务，避免重复
