@@ -1,5 +1,20 @@
 {
-  "admin_id": "3367315356",
-  "reminder_time": "09:00",
-  "message": "早上好，这是你的每日提醒！"
+  "tasks": [
+    {
+      "time": "09:00",
+      "qq": "3367315356",
+      "message": "每日统计数据",
+      "use_api": true,
+      "api_url": "https://zdz888.top/api/statistics?logs=true",
+      "api_headers": {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "authorization": "Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjdjYWVmODg1YmI3MDcwMWM0NTRjNmM0IiwiaWF0IjoxNzYxOTk2ODg0LCJleHAiOjE3NjIyNTYwODQsImp0aSI6IjNjNDAwNWYxLTcwN2QtNDEwMy04ZTUwLWFlZTEyMzRlZjEwYiIsImRldmljZSI6Ijk0Y2ViZDU1MjA4ZTMzMThmMDM5OWQ4Yzk4NDE1NDk3ZDU5OWZiNDRiZjAxNDA5MThkZmE4YjljMzBmZTNkNGQiLCJub25jZSI6IjE2MmMzYWYzZWJhY2Q0NWQiLCJpc3MiOiJrYW1pbC1hdXRoIiwiYXVkIjoia2FtaWwtYXBpIiwiaXNfdGVtcCI6ZmFsc2V9.1tDm2vNw-xJsgNgbFgYqlYzd-E5tbEG2X7BYsGF5cac8yU4Oj_RyvvnCw1pcQN-k7hK8B-jQielDhcNa-vwGWA",
+        "cache-control": "no-cache",
+        "pragma": "no-cache",
+        "referer": "https://zdz888.top/wf-kamil/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+      }
+    }
+  ]
 }
